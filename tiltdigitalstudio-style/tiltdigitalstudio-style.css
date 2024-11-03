@@ -1,0 +1,90 @@
+/*
+
+Pixel pusher, exploring creativity as a tool
+
+full names: tshidiso brandon khoza
+alies: stbrandonkhoza
+handler :@stbrandondoncanvas
+phone: +27 (0) 67 895 9224
+email: 8brandonkhoza@gmail.com
+
+website : www.tshidisobrandonkhoza.co.za
+email hello@tshidisobrandonkhoza.co.za
+
+*/
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Playfair+Display:wght@600&display=swap');
+*{
+    border:0;
+    padding: 0;
+    margin:0;
+    outline: none;
+    text-decoration:none;
+    list-style:none;
+    font-size: 14px;
+    color: #000; 
+font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    outline: none;
+}
+/*end rest html*/
+html {
+    position:relative;
+    top:0;
+    left: 0;
+    width: 100%;
+    height:100%; 
+    background: #f5f5f5;
+}
+input:focus{
+    outline:none;
+}
+textarea:focus{
+    outline:none;
+}
+/*end rest html*/
+body{
+    position:relative;
+    top:0;
+    left: 0;
+    width: 100%;
+    height:100%; 
+    overflow-x:hidden;
+    overflow-y: auto;
+}
+h1{
+font-family: 'Playfair Display', serif;
+}
+h2, h3, h4, h5, h6{
+
+ font-family: 'Playfair Display', serif;
+}
+p{
+    
+  
+}
+form, li, a{
+
+} 
+ 
+/*end onepage mobi Btn*/
+/*end onepage header*/
+
+/*start body*/
+.main-Cont{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: left; 
+    overflow: hidden;
+}
+
+
+#salt-cover{
+    /*background-color: red;*/
+} 
+
+/*end body*/
+
+

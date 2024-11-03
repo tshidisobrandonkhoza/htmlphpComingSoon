@@ -1,0 +1,152 @@
+/*
+
+Pixel pusher, exploring creativity as a tool
+
+full names: tshidiso brandon khoza
+alies: stbrandonkhoza
+handler :@stbrandondoncanvas
+phone: +27 (0) 67 895 9224
+email: 8brandonkhoza@gmail.com
+
+website : www.tshidisobrandonkhoza.co.za
+email hello@tshidisobrandonkhoza.co.za
+
+*/
+*/
+
+/*start mouse*/
+#cursor{
+    overflow: hidden;
+    z-index: 500;
+    position: absolute; 
+    top:30px;
+    left: 10px;
+    width:10px;
+    height: 10px;
+    border: #000 2px solid;
+    border-radius: 50%; 
+    transition: all 200ms ease-out;
+    animation: curAn .8s infinite alternate;
+}
+#c--circle{
+    overflow: hidden;
+    z-index: 500;
+    position: absolute; 
+    top:30px;
+    left: 10px;
+    width:2px;
+    height: 2px;
+    background-color: #000;
+
+    transition: all 100ms ease-out;
+    animation: curAn .8s infinite alternate;
+}
+/*end mouse*/
+
+/*start loading*/
+
+#tilt_load{
+    z-index: 599;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height:100%; 
+
+    background: #000;
+
+    transition: all 0.4s ease-in-out;
+}
+
+.tilt_loadA{
+    z-index: 2;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height:100%; 
+    background: #000;
+    transition: all 0.4s ease-in-out;
+}
+/*.tilt_loadA p{  
+
+}*/
+.tilt_loadB{
+
+    z-index: 1;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height:100%;  
+    background: #f5f5f5;
+    transition: all 0.4s ease-in-out;
+}
+
+/*end loading*/
+
+
+
+.load--motion{
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    /*    position: absolute;
+        top: calc(100% - 4em);
+        left: calc(100% - 300px);
+        font-size: 1.2em;
+        color: #202040;*/
+
+}
+
+
+.m--box{
+    margin: 1em;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+     background: #f5f5f5;
+    border-radius: 100%;
+}
+
+#m--box1{ 
+    left: 0;
+    animation: m1 0.5s infinite;
+    -webkit-animation: m1 0.5s infinite;
+}
+
+#m--box2{ 
+    left: 0;
+    animation: m2 0.2s linear;
+    -webkit-animation: m2 0.2s linear;
+}
+
+#m--box3{
+    
+    left: 0;
+    animation: m3 0.5s infinite;
+    -webkit-animation: m3 0.5s infinite;
+}
+@-webkit-keyframes  m1 {
+0%{ 
+left: 0
+}
+    100%{ 
+        
+left: 105px;
+    }
+}
+@-webkit-keyframes  m3 {
+0%{ 
+left: 0
+}
+    100%{ 
+        
+left: -105px;
+    }
+}

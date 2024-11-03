@@ -1,0 +1,232 @@
+/*
+
+Pixel pusher, exploring creativity as a tool
+
+full names: tshidiso brandon khoza
+alies: stbrandonkhoza
+handler :@stbrandondoncanvas
+phone: +27 (0) 67 895 9224
+email: 8brandonkhoza@gmail.com
+
+website : www.tshidisobrandonkhoza.co.za
+email hello@tshidisobrandonkhoza.co.za
+
+*/
+
+
+.myHead{
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 4em;
+    overflow: hidden;
+    border-bottom: 1px solid  #000;
+    display: flex; align-items: center;
+    justify-content: center;
+}
+.myHeadList{
+    flex: 1; 
+}
+.myHeadList:nth-child(2){
+    text-align:center;
+}
+.myHeadList:nth-child(3){
+
+    text-align:right;
+}
+.myHeadList p{
+    position: absolute;
+    top: 1.4em;
+    left: 2em;
+    width: auto;
+    display: inline-block;
+    padding-bottom: 1em;
+}
+
+.rotate{
+    animation: rotate 4s linear infinite; 
+}
+@keyframes rotate{
+    to{ transform: rotate(360deg); }
+}
+
+
+/* SPINNER JUST FOR DEMO */
+.spinner{
+    display:inline-block; 
+    width: 1.5em; height: 1.5em;
+    border-radius: 50%;
+    text-align: center;
+    background-image: url(../tiltdigitalstudio-img/sam.png);
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+
+.myBody{ 
+    margin: 0 auto;
+    /*margin-top: 5em;*/
+    position: relative;
+    top: 50%;
+    left: 0;
+    width: 90%;
+    height: auto;
+    overflow: hidden; 
+    text-align: center;
+    transform: translateY(-50%);
+    /*background-color: green;*/
+}
+
+.myBody h1{
+    z-index: 5;
+    margin: 0 auto; 
+    font-size: 12em; 
+}
+
+.myBody h2{
+    z-index: 5;
+    margin: 0 auto;
+    width: 300px;
+    font-size: 2em; 
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+
+/**/
+
+
+.myFoot{
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+    height: 4em;
+    overflow: hidden;
+    border-top: 1px solid  #000;
+    display: flex; align-items: center;
+    justify-content: center; 
+}
+.myFootList{
+    flex: 1; 
+}
+.myFootList:nth-child(2){
+    text-align:center;
+}
+.myFootList:nth-child(3){
+
+    text-align:right;
+}
+
+
+@media only screen and (max-width : 1023px) {
+    .myBody h1{ 
+        font-size: 10em; 
+    }
+}
+@media only screen and (max-width : 900px) {
+    .myBody h1{ 
+        font-size: 8em; 
+    }
+}
+
+@media only screen and (max-width : 768px) {
+
+    .myHeadList:nth-child(1){
+        text-align:center;
+        transform: translateY(1.2em);
+    }
+    .myHeadList p{
+        position: relative;
+        top: -.4em;
+        left: 0;
+    }
+    .myHead{
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 1em;
+    }
+    .myHeadList{
+        /*        height: 2em;*/
+        margin: .3em auto;
+    }
+
+    /**/
+    .myBody {
+        /*transform: translateY(calc(50% + 2em));*/
+
+    }
+    .myBody h1{ 
+        font-size: 7em; 
+    }
+
+    /*
+     
+        .myBody h2{
+            z-index: 5;
+            margin: 0 auto;
+            width: 300px;
+            font-size: 2em; 
+            border-top: 1px solid #000;
+            border-bottom: 1px solid #000;
+        }*/
+
+
+}
+
+
+@media only screen and (max-width : 740px) {
+
+    .myBody h1{ 
+        font-size: 5em; 
+    }
+    .myBody h2{ 
+        font-size: 1.8em;
+    }
+}
+
+
+@media only screen and (max-width :500px) {
+
+
+    /*
+        .myBody{ 
+            top: 50%;
+            text-align: center;
+            transform: translateY(calc(50% + 10em)); 
+        }*/
+
+
+    .myFoot{
+        flex-direction: column;
+        height: auto;
+        padding-bottom: .2em;
+    }
+
+    .myFootList{
+        margin: .3em auto;
+    }
+}
+
+
+@media only screen and (max-width :360px) {
+
+    /*
+    
+        .myBody{ 
+            top: 50%;
+            text-align: center;
+            transform: translateY(calc(100% + 12em)); 
+        }*/
+
+    .myBody h1{ 
+        font-size: 3em; 
+    }
+    .myBody h2{ 
+        width: 200px;
+        font-size: 1.4em;
+    }
+}
